@@ -1,0 +1,180 @@
+.p-main {
+    padding: 80px 120px;
+    background-color: rgb(184, 248, 255);
+}
+.p-main-close {
+    padding: 80px 120px 80px 350px;
+    background-color: rgb(184, 248, 255);
+}
+.lbd-img {
+    width: 165px;
+    padding-right: 20px;
+}
+.lbd-img2 {
+    width: 205px;
+    padding-left: 20px;
+}
+.upSide {
+    justify-content: center;
+}
+.main-image-title {
+    width:700px;
+    padding-top:20px;
+}
+.bg-item {
+    background-color: #008a81 !important;
+    padding-left: 1rem!important;
+    padding-right: 1rem!important;
+}
+.under-text {
+    color: rgb(69, 42, 122);
+}
+
+a {
+    color: #0d6efd;
+    text-decoration: unset;
+}
+
+.second-card1 {
+    height: 430px;
+    width: 45%;
+    background-color: white;
+    margin: 30px 20px;
+    border-radius: 40px;
+
+    background-image: url('../../img/quotation/lbd_bg_money.svg');
+    background-repeat: no-repeat;
+    background-position: right top;
+    min-height: 340px;
+}
+.second-card2 {
+    height: 430px;
+    width: 45%;
+    background-color: white;
+    margin: 30px 20px;
+    border-radius: 40px;
+    min-width: 364px;
+}
+.medium-section {
+    
+}
+.card-main {
+    padding: 20px 30px;
+}
+.card-main-title {
+    color: rgb(69, 42, 122);
+    font-size: 35px;
+}
+.w-24-2 {
+    width: 50px;
+}
+.title-color {
+    padding-top: 15px;
+    color: rgb(3 210 255);
+    font-size: 14px;
+}
+.under-text {
+    padding: 7px 0;
+}
+.money {
+    /* background-image: url(/images/lbd-bg-money.svg); */
+    background-repeat: no-repeat;
+    background-position: right top;
+    min-height: 376px;
+}
+
+.rounded-button-long {
+    border-radius: 1em;
+    padding: 12px 11px 11px 11px;
+    border-color: rgb(0, 135, 165);
+}
+.rounded-button-long:hover {
+    border-radius: 1em;
+    padding: 12px 11px 11px 11px;
+    border-color: rgb(0, 135, 165);
+    background-color: rgb(79, 223, 255);
+}
+
+
+.farm-num {
+    color: rgb(12, 96, 171);
+    font-size: 2.7em;
+}
+.right-icon {
+    float: right;
+}
+
+.third-card1 {
+    height: 200px;
+    width: 45%;
+    background-color: white;
+    margin: 30px 20px;
+    border-radius: 40px;
+    min-width: 364px;
+}
+.third-card2 {
+    height: 200px;
+    width: 45%;
+    background-color: white;
+    margin: 30px 20px;
+    border-radius: 40px;
+    min-width: 364px;
+}
+
+.LBD-status {
+    color: rgb(69, 42, 122);
+    font-size: 40px;
+}
+.fs-12 {
+    font-size: 13px;
+}
+.color-blackpink {
+    color: rgb(69, 42, 122);
+}
+.Total-value {
+    color:rgb(12, 96, 171);
+    font-size: 19px;
+}
+.w-245 {
+    width: 345px;
+}
+.text-pink {
+    color: blueviolet;
+    font-weight: bold;
+}
+.text-grey-stake-balance {
+    color: grey;
+}
+@media only screen and (max-width: 967px) {
+    .p-main {
+        padding: 80px 20px;
+    }
+    .p-main-close {
+        padding: 20px 120px 80px 20px;
+        background-color: rgb(184, 248, 255);
+    }
+}
+@media only screen and (max-width: 1300px) {
+    .second-card1 {
+        height: 430px;
+        width: 50%;
+        background-color: white;
+        margin: 30px 20px;
+        border-radius: 40px;    
+        background-image: none;
+        background-repeat: no-repeat;
+        background-position: right top;
+        min-width: 364px;
+    }
+    .second-card2 {
+        height:814px;
+        width: 50%;
+        background-color: white;
+        margin: 30px 20px;
+        border-radius: 40px;    
+        background-image: none;
+        background-repeat: no-repeat;
+        background-position: right top;
+        min-width: 364px;
+    }
+}

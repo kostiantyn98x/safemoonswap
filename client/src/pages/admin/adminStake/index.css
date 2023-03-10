@@ -1,0 +1,111 @@
+.c-btn-info {
+    background-color: rgb(42, 106, 245);
+    border: solid 1px rgb(rgb(175, 175, 175), rgb(170, 170, 170), rgb(194, 194, 194));
+    color: white;
+    padding: 7px 15px;
+    border-radius: 8px;
+    font-weight: 700;
+    font-size: 13px;
+    cursor: pointer;
+}
+.c-btn-info:hover {
+    background-color: rgb(84, 121, 202);
+    border: solid 1px rgb(rgb(175, 175, 175), rgb(170, 170, 170), rgb(194, 194, 194));
+    color: white;
+    padding: 7px 15px;
+    border-radius: 8px;
+    font-weight: 700;
+    font-size: 13px;
+}
+
+.c-btn-danger {
+    background-color: rgb(174, 34, 255);
+    border: solid 1px rgb(rgb(175, 175, 175), rgb(170, 170, 170), rgb(194, 194, 194));
+    color: white;
+    padding: 7px 15px;
+    border-radius: 8px;
+    font-weight: 700;
+    font-size: 13px;
+    cursor: pointer;
+}
+.c-btn-success {
+    background-color: rgb(10, 216, 164);
+    border: solid 1px rgb(rgb(175, 175, 175), rgb(170, 170, 170), rgb(194, 194, 194));
+    color: white;
+    padding: 6px 11px;
+    border-radius: 8px;
+    font-weight: 700;
+    font-size: 13px;
+    cursor: pointer;
+}
+.c-btn-danger:hover {
+    background-color: rgb(173, 106, 211);
+    border: solid 1px rgb(rgb(175, 175, 175), rgb(170, 170, 170), rgb(194, 194, 194));
+    color: white;
+    padding: 7px 15px;
+    border-radius: 8px;
+    font-weight: 700;
+    font-size: 13px;
+    animation: fadein 3s ease-in 7s forwards;
+}
+.c-btn-info {
+    background-color: rgb(3, 62, 190);
+    border: solid 1px rgb(rgb(175, 175, 175), rgb(170, 170, 170), rgb(194, 194, 194));
+    color: white;
+    padding: 7px 15px;
+    border-radius: 8px;
+    font-weight: 700;
+    font-size: 13px;
+    cursor: pointer;
+}
+.c-btn-info-d {
+    background-color: rgb(114, 128, 158);
+    border: solid 1px rgb(rgb(175, 175, 175), rgb(170, 170, 170), rgb(194, 194, 194));
+    color: white;
+    padding: 7px 15px;
+    border-radius: 8px;
+    font-weight: 700;
+    font-size: 13px;
+    cursor: pointer;
+}
+.c-btn-danger-d {
+    background-color: rgb(135, 101, 155);
+    border: solid 1px rgb(rgb(175, 175, 175), rgb(170, 170, 170), rgb(194, 194, 194));
+    color: white;
+    padding: 7px 15px;
+    border-radius: 8px;
+    font-weight: 700;
+    font-size: 13px;
+    cursor: pointer;
+}
+.font-weight-light {
+    font-weight: 400;
+    font-size: 30px;
+}
+.badge-success{
+    color:rgb(252, 240, 236);
+    font-size: 12px;
+    background-color: rgb(255, 8, 0);
+    border: solid 3px rgb(216, 213, 213);
+    border-radius: 25px;
+    padding: 7px 2px;
+    font-weight: 400;
+}
+
+.admin-logout {
+    border: solid 1px rgb(170, 170, 170);
+    cursor: pointer;
+}
+
+.box-grey  {
+    border: solid 1px rgb(223, 223, 223);
+    height: 75vh;
+}
+.mr-c {
+    margin-right: 3.25rem;
+}
+.admin-logout:hover {
+    color: white;
+    background-color: grey;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}

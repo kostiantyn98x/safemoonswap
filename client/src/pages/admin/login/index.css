@@ -1,0 +1,75 @@
+
+  body, html, .App, #root, .auth-wrapper {
+  }
+  .navbar-light {
+    background-color: #ffffff;
+    box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2);
+  }
+  .auth-wrapper {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: left;
+  }
+  .auth-inner {
+    width: 450px;
+    margin: auto;
+    background: #ffffff;
+    box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2);
+    padding: 40px 55px 45px 55px;
+    border-radius: 15px;
+    transition: all .3s;
+  }
+  .auth-wrapper .form-control:focus {
+    border-color: #167bff;
+    box-shadow: none;
+  }
+  .auth-wrapper h3 {
+    text-align: center;
+    margin: 0;
+    line-height: 1;
+    padding-bottom: 20px;
+  }
+  .custom-control-label {
+    font-weight: 400;
+  }
+  .forgot-password,
+  .forgot-password a {
+    text-align: right;
+    font-size: 13px;
+    padding-top: 10px;
+    color: #7f7d7d;
+    margin: 0;
+  }
+  .forgot-password a {
+    color: #167bff;
+  }
+  .login{
+      width: 700px;
+      margin: auto;
+      padding: 5%;
+      margin-top: 5%;
+      border: solid 1px rgb(217 205 205);
+      background-color: rgb(255, 255, 255);
+      box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  }
+  .bg-grey {
+      background-color: #e1ecf8;
+  }
+  .text-greys {
+      color: #5f5f5f;
+  }
+  .btn-grey {
+    background-color:#93a6c6;
+    color: white;
+    padding: 8px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    border-color: #5f5f5f;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  }
+  .btn-grey:hover {
+    background-color:#707f99;
+    color: white;
+  }
